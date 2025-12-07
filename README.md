@@ -1,16 +1,102 @@
-# React + Vite
+# Memory Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A classic **memory matching game** built with **React**. Flip cards to find matching pairs and track your moves and score.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🖥️ Demo
 
-## React Compiler
+*(Optional: Add a link if deployed online)*
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Flip cards and match pairs  
+- Track number of moves and score  
+- Cards flip back if they do not match  
+- Responsive design for desktop and mobile  
+- Clean React state management with hooks  
+
+---
+
+## 🛠️ Technologies Used
+
+- **React** (Functional Components & Hooks)  
+- **JavaScript (ES6+)**  
+- **CSS / Tailwind** *(or your styling library)*  
+- **Optional:** Vite / Create React App for project setup  
+
+---
+
+## 📂 Project Structure
+
+```
+
+memory-game/
+├─ public/
+├─ src/
+│  ├─ components/       # Card components, UI elements
+│  ├─ hooks/            # Custom hooks (e.g., useGameLogic)
+│  ├─ App.jsx           # Main app component
+│  ├─ index.jsx         # React entry point
+│  └─ styles.css        # Global styles
+├─ .gitignore
+├─ package.json
+└─ README.md
+
+````
+
+---
+
+## ⚡ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/USERNAME/memory-game.git
+cd memory-game
+````
+
+### 2. Install dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+### 3. Run the project locally
+
+```bash
+npm start
+# or
+yarn start
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view in your browser.
+
+---
+
+## 📝 Usage
+
+* Click a card to flip it
+* Try to find the matching pair
+* Moves and score are tracked automatically
+* Matched pairs stay flipped
+
+---
+
+## 🎯 Future Improvements
+
+* Add timer / leaderboard
+* Add animations and sounds
+* Support for multiple difficulty levels
+
+---
+
+## 📄 License
+
+This project is open source and free to use.
+
+---
